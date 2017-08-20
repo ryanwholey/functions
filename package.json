@@ -1,0 +1,27 @@
+{
+  "name": "funcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./run.sh && webpack-dev-server --inline --hot --open",
+    "test": "echo not configured",
+    "compile": "./run.sh && webpack",
+    "dev": "./run.sh && webpack-dev-server --inline --hot"
+  },
+  "keywords": [],
+  "author": "Ryan!",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jasmine": "^2.7.0",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
