@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-	devtool: 'eval',
+	devtool: 'source-map',
 	entry: './spec/tests.js',
 	output: {
 		path: path.resolve(__dirname, 'build'),
